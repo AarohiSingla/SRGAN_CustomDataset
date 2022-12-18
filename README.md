@@ -16,3 +16,11 @@ conda install pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytorch
 
 ##### CPU Only
 conda install pytorch-cpu==1.1.0 torchvision-cpu==0.3.0 cpuonly -c pytorch
+
+
+#### Train your Model:
+!python main.py --LR_path custom_dataset_cars/hr_train_LR --GT_path custom_dataset_cars/hr_train_HR
+
+#### Test your Model:
+!python main.py --mode test_only --LR_path test_data/cars --generator_path ./model/srgan_custom.pt
+
