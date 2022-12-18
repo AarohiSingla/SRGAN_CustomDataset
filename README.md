@@ -6,8 +6,7 @@ Open anaconda prompt and cd to the folder where you have your environment.yml fi
 
 conda env create -f environment.yml
 
-conda activate srganenv_first
-conda activate srganenv_cpu
+conda activate srganenv_gpu 
 
 #### GPU
 conda install pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytorch
