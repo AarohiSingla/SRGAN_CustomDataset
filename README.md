@@ -1,4 +1,4 @@
-# SRGAN_CustomDataset
+# SRGAN On Custom Dataset
 Learn how to train SRGAN on Custom dataset
 
 ## Environment Setup
