@@ -9,7 +9,8 @@ conda env create -f environment.yml
 conda activate srganenv_first
 conda activate srganenv_cpu
 
+#### GPU
 conda install pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytorch
 
-# CPU Only
+##### CPU Only
 conda install pytorch-cpu==1.1.0 torchvision-cpu==0.3.0 cpuonly -c pytorch
