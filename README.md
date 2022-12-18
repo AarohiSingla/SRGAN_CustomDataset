@@ -25,5 +25,6 @@ conda install pytorch-cpu==1.1.0 torchvision-cpu==0.3.0 cpuonly -c pytorch
 !python main.py --mode test_only --LR_path test_data/cars --generator_path ./model/srgan_custom.pt
 
 
-#### If you want to test the model on div2K trained model then download the model from here:  https://github.com/AarohiSingla/SRGAN_CustomDataset/tree/main/pretrained_models
+#### If you want to test the model which is trained on div2K dataset then download the model from here:  https://github.com/AarohiSingla/SRGAN_CustomDataset/tree/main/pretrained_models
+
 
