@@ -1,0 +1,1 @@
+In this folder, I am placing all the images on which I want to perform testing
