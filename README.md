@@ -8,6 +8,9 @@ conda env create -f environment.yml
 
 conda activate srganenv_gpu 
 
+
+Now Install Pytorch as per your resources
+
 #### GPU
 conda install pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytorch
 
