@@ -7,8 +7,8 @@ parser = argparse.ArgumentParser()
 def str2bool(v):
     return v.lower() in ('true')
 
-parser.add_argument("--LR_path", type = str, default = '../DIV2K/DIV2K_train_LR_bicubic/X4')
-parser.add_argument("--GT_path", type = str, default = '../DIV2K/DIV2K_train_HR/')
+parser.add_argument("--LR_path", type = str, default = '../dataSet/DIV2K/DIV2K_train_LR_bicubic/X4')
+parser.add_argument("--GT_path", type = str, default = '../dataSet/DIV2K/DIV2K_train_HR/')
 parser.add_argument("--res_num", type = int, default = 16)
 parser.add_argument("--num_workers", type = int, default = 0)
 parser.add_argument("--batch_size", type = int, default = 16)
